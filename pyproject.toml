@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "q&a rag pipeline using langchain"
+version = "0.1.0"
+description = ""
+authors = ["Nasir Abbas <akhtarabbas.islamicreaction@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.3"
+python-dotenv = "^1.0.1"
+beautifulsoup4 = "^4.12.3"
+faiss-cpu = "^1.9.0"
+langchain-community = "^0.3.2"
+langchain-core = "^0.3.10"
+langchain-google-genai = "^2.0.1"
+pypdf = "^5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
